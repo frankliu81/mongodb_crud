@@ -43,22 +43,10 @@ group :development do
   gem 'spring'
 end
 
-
-gem 'bcrypt', '~> 3.1.7'
+gem 'mongoid', '~> 5.1.0'
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'font-awesome-sass', '~> 4.5.0'
-gem 'jquery-ui-rails'
-gem 'jquery-turbolinks'
-gem 'cancancan'
-gem 'quiet_assets'
-gem 'delayed_job_active_record'
-gem 'delayed_job_web'
-gem 'chosen-rails'
-gem 'rails_12factor', group: :production
-gem 'simple_form'
-gem 'friendly_id'
-gem 'carrierwave'
-gem 'mini_magick'
+gem 'bootstrap-generators', '~> 3.3.4'
+
 group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
